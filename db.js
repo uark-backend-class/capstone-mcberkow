@@ -26,9 +26,7 @@ module.exports = {
 /*
 
 
-struggling with what I really need for the structure of my app
-do I need routes?
-need elp with controllers
+
 
 const Sequelize = require('sequelize').Sequelize;
 const CityModel = require('./models/city.model');
