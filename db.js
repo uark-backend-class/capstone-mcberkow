@@ -21,11 +21,7 @@ module.exports = {
   Zip
 }
 
-
-
 /*
-
-
 
 
 const Sequelize = require('sequelize').Sequelize;
