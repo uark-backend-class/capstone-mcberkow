@@ -23,6 +23,7 @@ module.exports = {
 
 /*
 
+/*
 
 const Sequelize = require('sequelize').Sequelize;
 const CityModel = require('./models/city.model');
