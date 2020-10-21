@@ -1,0 +1,1 @@
+views is the location of any templates rendered by the application
