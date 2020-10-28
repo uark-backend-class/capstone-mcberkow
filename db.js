@@ -23,11 +23,9 @@ module.exports = {
 
 /*
 
-/*
-zips not showing up in table
-API response incomplete results
+Notes
 
-env variables?
+views is the location of any templates rendered by the application
 
 const Sequelize = require('sequelize').Sequelize;
 const CityModel = require('./models/city.model');
