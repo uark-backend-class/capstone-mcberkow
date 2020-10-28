@@ -13,4 +13,4 @@ app.use(express.urlencoded({ extended: true})); // set up middleware //
 app.use(routes);
 
 
-app.listen(32770);
+app.listen(process.env.PORT);
