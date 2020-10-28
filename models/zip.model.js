@@ -7,6 +7,6 @@ module.exports = (sequelize, Sequelize) => {
         primaryKey: true,
         autoIncrement: true,
       },
-      zip_code: Sequelize.INTEGER,  // or string //
+      zip: Sequelize.STRING,  // or string //
     }, { freezeTableName: true });
   }

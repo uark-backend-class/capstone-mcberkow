@@ -3,18 +3,18 @@
 const Sequelize = require('sequelize').Sequelize;
 const ZipModel = require('./models/zip.model');
 
-const sequelize = new Sequelize('postgres://classroom:classroom@localhost:32770/classroom');
+const sequelize = new Sequelize(process.env.DATABASE_CONNECTION);
+  
 
 // Create our models //
 const Zip = ZipModel(sequelize, Sequelize);
 
-// Create our tables using sync
+// Create our tables using sync force: true will destroy previous tables and start over
 // sequelize.sync({force: true}).then(() => console.log("database created."));
 
 sequelize.sync().then(() => {
   console.log("database created");
 });
-
 
 // Export our models //
 module.exports = {
@@ -24,6 +24,10 @@ module.exports = {
 /*
 
 /*
+zips not showing up in table
+API response incomplete results
+
+env variables?
 
 const Sequelize = require('sequelize').Sequelize;
 const CityModel = require('./models/city.model');

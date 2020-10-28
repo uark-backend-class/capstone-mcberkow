@@ -1,4 +1,16 @@
+
+<img src="https://www.clubmarine.com.au/articleimages/31-3-Watch-the-weather/$FILE/Watch-the-weather-image1-hero.jpg" width="200" height="100"
+<h1>Derecho Weather Network</h1>
 <h1> Current Conditions </h1>
+<h1>{{weatherData.name}}</h1> 
+<h1>{{weatherData.sys.country}}</h1>
+<h1>{{weatherData.weather.0.description}}</h1>
+<h1> temp {{weatherData.main.temp}}</h1>
+<h1> wind {{weatherData.wind.speed}}</h1>
+
+<img src="http://openweathermap.org/img/wn/{{weatherData.weather.0.icon}}@2x.png" >
+
+{{error}}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,10 +20,9 @@
     <title>Document</title>
 </head>
 <body>
-    <img style="-webkit-user-select: none; display: block; margin: auto; padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); cursor: zoom-in;" src="https://media.nationalgeographic.org/assets/photos/000/263/26383.jpg" width="615" height="462">
+    <body style="background-color:rgb(74, 95, 102);"></body>
 </body>
 </html>
 
-{{error}}
 
-{{weatherData.weather.0.description}}
+
