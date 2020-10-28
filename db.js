@@ -27,6 +27,10 @@ Notes
 
 views is the location of any templates rendered by the application
 
+model view controller: architect your app to creat UI (view) //
+controller: CRUD
+model: data stored in arrays
+
 const Sequelize = require('sequelize').Sequelize;
 const CityModel = require('./models/city.model');
 
