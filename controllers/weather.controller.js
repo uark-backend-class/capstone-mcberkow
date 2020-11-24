@@ -7,7 +7,6 @@ exports.weatherResultsPage = (req, res) => {
     res.render("weather-results");
 }
 
-
 exports.addZip = async (req, res) => {
     res.render("weather-results");
 }

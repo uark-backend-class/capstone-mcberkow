@@ -1,2 +1,3 @@
 Derecho Weather Network
 Weather application that stores seaches by zip code in database.  Basic foundation that can be expanded on the back-end and enhanced on the front-end.
+As an amateur storm chaser, I find myself only seearching for specific weather conditions dependning on what type of storm or weather system I am monitoring.  As I develop more features on this app, I'll add settings for users to customize based on what they are monitoring to make it easier to navigate in real time for data.  Many weather apps seem to be focused on a dynamic UI, which is cool, but quicker data is often needed.

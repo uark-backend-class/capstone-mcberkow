@@ -1,14 +1,33 @@
 
 <img src="https://www.clubmarine.com.au/articleimages/31-3-Watch-the-weather/$FILE/Watch-the-weather-image1-hero.jpg" width="200" height="100"
-<h1>Derecho Weather Network</h1>
-<h1> Current Conditions </h1>
+<p><b><i> Derecho Weather Network</i></b></p>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="font-family: Arial;">CURRENT WEATHER</h1>
+
+
+</body>
+</html>
+
+
+
+<h1> Conditions </h1>
 <h1>{{weatherData.name}}</h1> 
 <h1>{{weatherData.sys.country}}</h1>
 <h1>{{weatherData.weather.0.description}}</h1>
-<h1> temp {{weatherData.main.temp}}</h1>
-<h1> wind {{weatherData.wind.speed}}</h1>
+<h1> Temp {{weatherData.main.temp}}</h1>
+<h1> Wind {{weatherData.wind.speed}}</h1>
 
-<img src="http://openweathermap.org/img/wn/{{weatherData.weather.0.icon}}@2x.png" >
+<div class="entry">
+{{#if weatherData}}
+<img src="http://openweathermap.org/img/wn/{{weatherData.weather.0.icon}}@2x.png"
+{{else}}
+<h1></h1>
+{{/if}}
+</div>
 
 {{error}}
 
@@ -17,7 +36,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Derecho</title>
 </head>
 <body>
     <body style="background-color:rgb(74, 95, 102);"></body>
